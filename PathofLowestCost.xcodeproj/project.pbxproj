@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900C7A0A1F5625D90039EC63 /* ManuelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C7A091F5625D90039EC63 /* ManuelVC.swift */; };
 		90EFA0821F55BFC000568060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFA0811F55BFC000568060 /* AppDelegate.swift */; };
-		90EFA0841F55BFC000568060 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFA0831F55BFC000568060 /* FirstViewController.swift */; };
-		90EFA0861F55BFC000568060 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFA0851F55BFC000568060 /* SecondViewController.swift */; };
 		90EFA0891F55BFC100568060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EFA0871F55BFC100568060 /* Main.storyboard */; };
 		90EFA08B1F55BFC100568060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFA08A1F55BFC100568060 /* Assets.xcassets */; };
 		90EFA08E1F55BFC100568060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EFA08C1F55BFC100568060 /* LaunchScreen.storyboard */; };
@@ -35,10 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		900C7A091F5625D90039EC63 /* ManuelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuelVC.swift; sourceTree = "<group>"; };
 		90EFA07E1F55BFC000568060 /* PathofLowestCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathofLowestCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EFA0811F55BFC000568060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90EFA0831F55BFC000568060 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		90EFA0851F55BFC000568060 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		90EFA0881F55BFC100568060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90EFA08A1F55BFC100568060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EFA08D1F55BFC100568060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				90EFA0811F55BFC000568060 /* AppDelegate.swift */,
-				90EFA0831F55BFC000568060 /* FirstViewController.swift */,
-				90EFA0851F55BFC000568060 /* SecondViewController.swift */,
 				90EFA0871F55BFC100568060 /* Main.storyboard */,
+				900C7A091F5625D90039EC63 /* ManuelVC.swift */,
 				90EFA08A1F55BFC100568060 /* Assets.xcassets */,
 				90EFA08C1F55BFC100568060 /* LaunchScreen.storyboard */,
 				90EFA08F1F55BFC100568060 /* Info.plist */,
@@ -265,9 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EFA0861F55BFC000568060 /* SecondViewController.swift in Sources */,
+				900C7A0A1F5625D90039EC63 /* ManuelVC.swift in Sources */,
 				90EFA0821F55BFC000568060 /* AppDelegate.swift in Sources */,
-				90EFA0841F55BFC000568060 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +514,7 @@
 				90EFA0AA1F55BFC100568060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EFA0AB1F55BFC100568060 /* Build configuration list for PBXNativeTarget "PathofLowestCostTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +523,7 @@
 				90EFA0AD1F55BFC100568060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90EFA0AE1F55BFC100568060 /* Build configuration list for PBXNativeTarget "PathofLowestCostUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +532,7 @@
 				90EFA0B01F55BFC100568060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
