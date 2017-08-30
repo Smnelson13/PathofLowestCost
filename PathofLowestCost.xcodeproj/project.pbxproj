@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		900C7A0A1F5625D90039EC63 /* ManuelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C7A091F5625D90039EC63 /* ManuelVC.swift */; };
+		900C7A461F565A5C0039EC63 /* MatrixBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900C7A451F565A5C0039EC63 /* MatrixBrain.swift */; };
 		90EFA0821F55BFC000568060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EFA0811F55BFC000568060 /* AppDelegate.swift */; };
 		90EFA0891F55BFC100568060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EFA0871F55BFC100568060 /* Main.storyboard */; };
 		90EFA08B1F55BFC100568060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EFA08A1F55BFC100568060 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		900C7A091F5625D90039EC63 /* ManuelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuelVC.swift; sourceTree = "<group>"; };
+		900C7A451F565A5C0039EC63 /* MatrixBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixBrain.swift; sourceTree = "<group>"; };
 		90EFA07E1F55BFC000568060 /* PathofLowestCost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathofLowestCost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EFA0811F55BFC000568060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90EFA0881F55BFC100568060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				90EFA0811F55BFC000568060 /* AppDelegate.swift */,
 				90EFA0871F55BFC100568060 /* Main.storyboard */,
+				900C7A451F565A5C0039EC63 /* MatrixBrain.swift */,
 				900C7A091F5625D90039EC63 /* ManuelVC.swift */,
 				90EFA08A1F55BFC100568060 /* Assets.xcassets */,
 				90EFA08C1F55BFC100568060 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900C7A461F565A5C0039EC63 /* MatrixBrain.swift in Sources */,
 				900C7A0A1F5625D90039EC63 /* ManuelVC.swift in Sources */,
 				90EFA0821F55BFC000568060 /* AppDelegate.swift in Sources */,
 			);

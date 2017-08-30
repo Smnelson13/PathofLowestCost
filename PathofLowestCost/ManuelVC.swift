@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ManuelVC: UIViewController
+class ManuelVC: UIViewController, UITextFieldDelegate
 {
   @IBOutlet weak var a1: UITextField!
   @IBOutlet weak var a2: UITextField!
@@ -55,11 +55,29 @@ class ManuelVC: UIViewController
   {
     
   }
- 
+  
+  func textFieldNumberGenerator()
+  {
+    var aNumber = arc4random_uniform(9)
+    
+    
+    
+  }
+  
+  func textFieldSetup()
+  {
+
+  }
 
   override func viewDidLoad()
   {
-      super.viewDidLoad()
+    super.viewDidLoad()
+    
+    textFieldNumberGenerator()
+    
+    
+    
+    
 
       // Do any additional setup after loading the view.
   }
