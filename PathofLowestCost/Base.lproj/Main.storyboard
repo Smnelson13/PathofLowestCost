@@ -576,13 +576,34 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hel-0a-X7i">
+                                <rect key="frame" x="155.5" y="318.5" width="64" height="30"/>
+                                <state key="normal" title="Calculate"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ihe-pu-jwg">
+                                <rect key="frame" x="25" y="123" width="325" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ihe-pu-jwg" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" constant="25" id="3ed-lV-gU8"/>
+                            <constraint firstAttribute="trailing" secondItem="Ihe-pu-jwg" secondAttribute="trailing" constant="25" id="8mM-bM-mOX"/>
+                            <constraint firstItem="Ihe-pu-jwg" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="BVv-yS-p6u"/>
+                            <constraint firstItem="hel-0a-X7i" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="D8l-W8-1AG"/>
+                            <constraint firstItem="hel-0a-X7i" firstAttribute="top" secondItem="Ihe-pu-jwg" secondAttribute="bottom" constant="165.5" id="mEC-7b-Vba"/>
+                            <constraint firstItem="hel-0a-X7i" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="xgQ-cO-mIJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Automatic" id="CiE-cv-Hx3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1441" y="359"/>
+            <point key="canvasLocation" x="1440.8" y="358.4707646176912"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
